@@ -1,0 +1,17 @@
+{
+  "start_cycle": 1322,
+  "end_cycle": 3481,
+  "cycles_elapsed": 2159,
+  "start_time": "2026-05-13T08:59:47.803254Z",
+  "end_time": "2026-05-13T09:00:07.806370Z",
+  "duration_seconds": 20,
+  "heartbeat_snapshot": {
+    "status": "running",
+    "last_heartbeat": "2026-05-13T14:30:01.391484",
+    "cycle_count": 3481,
+    "active_positions": 0,
+    "last_price": 23494.1,
+    "agent_mode": "dry-run",
+    "agent_confirmed": false
+  }
+}

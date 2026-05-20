@@ -1,0 +1,51 @@
+{
+  "system": {
+    "broker": "angleone",
+    "execute_signals": false,
+    "log_level": "INFO",
+    "log_file": "logs/trading.log"
+  },
+  "brokers": {
+    "shoonya": {
+      "user_id": "FA420765",
+      "password": "Pass@09876",
+      "vendor_code": "FA420765_U",
+      "factor2": "2P6376AQ7SV2762GL36A54DHZ3V3E3UU",
+      "app_key": "0d7835b80e550dc09fcb46de2742a957",
+      "imei": "abc1234"
+    },
+    "angleone": {
+      "username": "DDPZ1020",
+      "password": "1447",
+      "api_key": "f2JHdjJK",
+      "Secret_Key": "5298eb27-681b-4480-b2a3-ccb3874ad898",
+      "factor2": "DHYMWRW5W7QWX7X3Q6EU5ZHXGQ",
+      "NIFTY_token" : "99926000",
+      "exchange": "NSE",
+      "timeframe": "1m"
+    }
+  },
+  "strategy": {
+    "name": "MAStrategy",
+    "symbol": "NIFTY",
+    "exchange": "NSE",
+    "token": "99926000",
+    "timeframe": "1h",
+    "quantity": 1,
+    "poll_interval_seconds": 300,
+    "data_fetch_minutes": 60,
+    "data_fetch_days": 30,
+    "fast_ma": 9,
+    "slow_ma": 21,
+    "min_volume": 1000
+  },
+  "risk": {
+    "max_position_size": 100000,
+    "max_positions": 10,
+    "max_loss_per_trade": 5000,
+    "max_daily_loss": 50000,
+    "max_drawdown_percent": 10,
+    "stop_loss_percent": 2,
+    "take_profit_percent": 5
+  }
+}

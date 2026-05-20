@@ -1,0 +1,46 @@
+{
+  "strategies": {
+    "ma": {
+      "enabled": true,
+      "fast_period": 9,
+      "slow_period": 21,
+      "confidence_threshold": 0.5,
+      "regime_preference": "trending"
+    },
+    "rsi": {
+      "enabled": true,
+      "period": 14,
+      "overbought": 70.0,
+      "oversold": 30.0,
+      "confidence_threshold": 0.5,
+      "regime_preference": "ranging"
+    },
+    "bollinger": {
+      "enabled": true,
+      "period": 20,
+      "std_dev": 2.0,
+      "confidence_threshold": 0.5,
+      "regime_preference": "volatile"
+    },
+    "option_sell": {
+      "enabled": true,
+      "iv_percentile_threshold": 50,
+      "min_dte_days": 7,
+      "max_dte_days": 45,
+      "min_risk_reward": 1.5,
+      "confidence_threshold": 0.5
+    }
+  },
+  "regime_detection": {
+    "adx_trend_threshold": 25.0,
+    "adx_range_threshold": 20.0,
+    "volatility_threshold": 2.5
+  },
+  "trading": {
+    "poll_interval_seconds": 60,
+    "min_signal_confidence": 0.5,
+    "max_positions": 5,
+    "position_size_percent": 2.0,
+    "daily_loss_limit_percent": 5.0
+  }
+}

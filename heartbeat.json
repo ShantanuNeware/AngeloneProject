@@ -1,0 +1,9 @@
+{
+  "status": "stopped",
+  "last_heartbeat": "2026-05-17T20:35:11.152563",
+  "cycle_count": 17,
+  "active_positions": 0,
+  "last_price": 23659.35,
+  "agent_mode": "monitor",
+  "agent_confirmed": false
+}
